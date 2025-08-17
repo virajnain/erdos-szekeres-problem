@@ -1,0 +1,105 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"minisat/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 186,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 206,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 208,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 232,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"minisat/libminisat.a"
+			],
+			"targetId" : "libminisat::@05cc517457fd809a7ac0",
+			"targetIndex" : 28,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/minisat",
+			"paths" : 
+			[
+				{
+					"from" : "minisat/minisat",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/MiniSat",
+			"exportName" : "MiniSatTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "libminisat::@05cc517457fd809a7ac0",
+					"index" : 28
+				}
+			],
+			"paths" : 
+			[
+				"minisat/CMakeFiles/Export/1dd281804e56de82f4d9efd9675a8e8d/MiniSatTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/MiniSat",
+			"paths" : 
+			[
+				"cmake-build-debug/minisat/MiniSatConfig.cmake",
+				"cmake-build-debug/minisat/MiniSatConfigVersion.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "minisat",
+		"source" : "minisat"
+	}
+}

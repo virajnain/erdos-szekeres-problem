@@ -1,0 +1,12 @@
+# ninja log v6
+426	461	1731001258437956769	minisat/libminisat.a	b9ef29b9fac4b543
+3	420	1731001258015000606	minisat/CMakeFiles/libminisat.dir/minisat/core/Solver.cc.o	a8defef427fc6a74
+4	426	1731001258015612982	minisat/CMakeFiles/libminisat.dir/minisat/simp/SimpSolver.cc.o	d274fb71b1440593
+3	356	1731001258015127189	minisat/CMakeFiles/libminisat.dir/minisat/core/SolverTypes.cc.o	6c7079d946993d94
+3	365	1731001258015335482	minisat/CMakeFiles/libminisat.dir/minisat/utils/Options.cc.o	b7747843a55d98c8
+1	6	1731001252003617773	clean	ad90e366ad70d77b
+3	59	1731001258015235231	minisat/CMakeFiles/libminisat.dir/minisat/core/ThrowOOMException.cc.o	95f9a612adca89a1
+3	59	1731001258014706647	minisat/CMakeFiles/libminisat.dir/minisat/core/OutOfMemoryException.cc.o	a025b5938c2ce8da
+650	786	1731386543887542798	minisat_project	1f0bcc4bdbc1c355
+4	50	1731001258015437482	minisat/CMakeFiles/libminisat.dir/minisat/utils/System.cc.o	587e9ceb9188e974
+8	650	1731386543245553216	CMakeFiles/minisat_project.dir/main.cpp.o	fd7e84c291543e84
